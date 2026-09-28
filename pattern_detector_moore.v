@@ -36,7 +36,4 @@ module pattern_detector_moore (
 
 endmodule
 
-    // Moore output: pure function of state, registered so no combinational glitch
-    assign detected = (state == S4);
-
-endmodule
+   
